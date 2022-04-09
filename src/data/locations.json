@@ -1,142 +1,142 @@
 [
   {
     "name": "Театр",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/0.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/0.jpeg",
     "job": ["Зритель", "Кассир", "Гардеробщик", "Актер", "Буфетчик", "Охранщик"]
   },
   {
     "name": "Полярная станция",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/1.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/1.jpeg",
     "job": ["Ученый", "Полярник"]
   },
   {
     "name": "Пиратский корабль",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/2.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/2.jpg",
     "job": ["Капитан", "Штурман", "Боцман", "Кок", "Квартирмейстер"]
   },
   {
     "name": "Корпоратив",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/3.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/3.jpg",
     "job": ["Директор", "Веселый работник", "Пьяный работник"]
   },
   {
     "name": "Университет",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/4.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/4.jpg",
     "job": ["Ученик", "Учитель", "Декант", "Староста", "Уборщица", "Охранщик"]
   },
   {
     "name": "СПА-салон",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/5.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/5.jpg",
     "job": ["Посетитель", "Работник", "Директор", "Охранщик"]
   },
   {
     "name": "Подводная лодка",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/6.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/6.jpg",
     "job": ["Офицер", "Матрос", "Мичман", "Командир"]
   },
   {
     "name": "Океанский лайнер",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/7.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/7.jpg",
     "job": ["Отдыхающий", "Капитан", "Матрос", "Врач"]
   },
   {
     "name": "Пляж",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/8.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/8.jpg",
     "job": ["Отдыхающий", "Спасатель", "Продавец"]
   },
   {
     "name": "Полицейский участок",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/9.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/9.jpg",
     "job": ["Полицейский", "Дежурный", "Бандит"]
   },
   {
     "name": "Орбитальная станция",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/10.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/10.jpg",
     "job": ["Космонавт", "Пришелец", "Астронавт"]
   },
   {
     "name": "Больница",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/11.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/11.jpg",
     "job": ["Врач", "Доктор", "Больной"]
   },
   {
     "name": "Киностудия",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/12.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/12.jpg",
     "job": ["Актер", "Режиссер", "Автор", "Сценарист", "Дублёр"]
   },
   {
     "name": "Сервис-центр",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/13.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/13.jpg",
     "job": ["Механик", "Администратор", "Продавец", "Покупатель"]
   },
   {
     "name": "Школа",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/14.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/14.jpg",
     "job": ["Ученик", "Учитель", "Охраник", "Уборщица", "Завуч"]
   },
   {
     "name": "Супермаркет",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/15.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/15.jpg",
     "job": ["Продавец-кассир", "Покупатель", "Охраник", "Уборщица", "Консультант"]
   },
   {
     "name": "Посольство",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/16.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/16.jpg",
     "job": ["Дипломат", "Посол", "Старший советник", "Советник"]
   },
   {
     "name": "Самолёт",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/17.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/17.jpg",
     "job": ["Пилот", "Пилот помощник", "Пассажир", "Стюардесса"]
   },
   {
     "name": "Ресторан",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/18.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/18.jpg",
     "job": ["Официант", "Повар", "Бармен", "Администратор"]
   },
   {
     "name": "Пассажирский поезд",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/19.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/19.jpg",
     "job": ["Проводник", "Пассажир", "Машинист"]
   },
   {
     "name": "Казино",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/20.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/20.jpg",
     "job": ["Охранник", "Игрок", "Крупье", "Кассир", "Официант"]
   },
   {
     "name": "Банк",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/21.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/21.jpg",
     "job": ["Банкир", "Бухгалтер", "Кассир", "Посетитель", "Аналитик"]
   },
   {
     "name": "Войско крестоносцев",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/22.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/22.jpg",
     "job": ["Воин", "Стрелок", "Рыцарь", "Князь"]
   },
   {
     "name": "Отель",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/23.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/23.jpg",
     "job": ["Администратор", "Менеджер", "Охранник", "Постоялец"]
   },
   {
     "name": "Церковь",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/24.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/24.jpg",
     "job": ["Священник", "Посетитель", "Псаломщик", "Звонарь"]
   },
   {
     "name": "Воинская часть",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/25.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/25.jpg",
     "job": ["Военный", "Шпион", "Генерал"]
   },
   {
     "name": "Цирк-шапито",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/26.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/26.jpg",
     "job": ["Клоун", "Посетитель", "Фокусник", "Дрессировщик", "Гимнаст"]
   },
   {
     "name": "Овощебаза",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/27.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/27.jpg",
     "job": ["Фермер", "Разнорабочий", "Грузщик"]
   }
 ]

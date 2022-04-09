@@ -16,7 +16,12 @@ import {
     Header,
 } from "@vkontakte/vkui";
 import Location from '../../components/Location';
-import { Icon20PlaceOutline, Icon20UserSquareOutline, Icon56GhostOutline } from '@vkontakte/icons';
+import {
+    Icon20PlaceOutline,
+    Icon20UserSquareOutline,
+    Icon56GhostOutline,
+    Icon56BlockOutline
+} from '@vkontakte/icons';
 import bridge from "@vkontakte/vk-bridge";
 import { set } from '../../reducers/gameReducer';
 import locations from '../../../data/locations.json';
@@ -68,7 +73,27 @@ function HomePanelPlaceholder({ router }) {
             </PanelHeader>
 
             <Group>
-                {!isView ?
+                {time === 0 &&
+                    <Placeholder
+                        icon={<Icon56BlockOutline/>}
+                        header={'Упс...'}
+                        action={
+                            <Button
+                                size="m"
+                                onClick={() => {
+                                    router.toView('home/')
+                                    router.toModal('registGame')
+                                }}
+                            >
+                                Начать еще раз
+                            </Button>
+                        }
+                    >
+                        Время выделенное на игру вышло, сыграем ещё раз?
+                    </Placeholder>
+                }
+
+                {time !== 0 && (!isView ?
                     <Placeholder
                         icon={<Icon56GhostOutline/>}
                         header={`${gameStorage.members[gameStorage.activeMember].name}, ваш ход!`}
@@ -89,10 +114,10 @@ function HomePanelPlaceholder({ router }) {
                             textWrap={'full'}
                         >
                             {gameStorage.members[gameStorage.activeMember].name}, ваша роль: {" "}
-                            {gameStorage.members[gameStorage.activeMember].isSpy ?
+                            <b>{gameStorage.members[gameStorage.activeMember].isSpy ?
                                 "Шпион" :
                                 gameStorage.members[gameStorage.activeMember].job
-                            }
+                            }</b>
                         </MiniInfoCell>
                         {!gameStorage.members[gameStorage.activeMember].isSpy ?
                             <>
@@ -101,7 +126,7 @@ function HomePanelPlaceholder({ router }) {
                                     textLevel={'primary'}
                                     textWrap={'full'}
                                 >
-                                    Локация: {gameStorage.location.name}
+                                    Локация: <b>{gameStorage.location.name}</b>
                                 </MiniInfoCell>
 
                                 <Div>
@@ -162,7 +187,7 @@ function HomePanelPlaceholder({ router }) {
                             </Div>
                         </FixedLayout>
                     </>
-                }
+                )}
             </Group>
         </>
     )

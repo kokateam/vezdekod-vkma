@@ -15,7 +15,7 @@ import { set } from "../../reducers/gameReducer";
 import locations from "../../../data/locations.json";
 
 function RegistGameModal({ nav, router }) {
-    const platform = useSelector((state) => state.main.platform)
+    const mainStorage = useSelector((state) => state.main)
     const gameStorage = useSelector((state) => state.game)
     const dispatch = useDispatch()
 
@@ -57,17 +57,17 @@ function RegistGameModal({ nav, router }) {
             nav={nav}
             header={
                 <ModalPageHeader
-                    left={platform !== IOS && 
+                    left={!mainStorage.isDesktop && (mainStorage.platform !== IOS &&
                         <PanelHeaderButton onClick={() => router.toBack()}>
                             <Icon24Cancel/>
                         </PanelHeaderButton>
-                    }
+                    )}
 
-                    right={platform === IOS && 
+                    right={!mainStorage.isDesktop && (mainStorage.platform === IOS &&
                         <PanelHeaderButton onClick={() => router.toBack()}>
                             <Icon24Dismiss/>
                         </PanelHeaderButton>
-                    }
+                    )}
                 >
                     Регистрация
                 </ModalPageHeader>
@@ -81,7 +81,11 @@ function RegistGameModal({ nav, router }) {
                     bottom={
                         gameStorage.memberCount < 3 ?
                             "Меньше 3 участников не может быть!" :
-                            (gameStorage.memberCount >= 9 ? 'В игре будет два шпиона.' : 'В игре будет один шпион.')
+                            (
+                                gameStorage.memberCount > 12 ?
+                                  "Больше 12 участников не может быть!" :
+                                  (gameStorage.memberCount >= 9 ? 'В игре будет два шпиона.' : 'В игре будет один шпион.')
+                            )
                     }
                     status={gameStorage.isError ? "error" : "default"}
                 >
@@ -96,7 +100,7 @@ function RegistGameModal({ nav, router }) {
                                     .replace(/^0+/, "")
                                     .replace(/,/g, "")
                             }))
-                            dispatch(set({ key: 'isError', value: Number(e.currentTarget.value) < 3 }))
+                            dispatch(set({ key: 'isError', value: Number(e.currentTarget.value) < 3 || Number(e.currentTarget.value) > 12 }))
                         }}
                         inputMode="numeric"
                     />
@@ -110,6 +114,7 @@ function RegistGameModal({ nav, router }) {
                             dispatch(set({ key: 'memberCount', value: Number(gameStorage.memberCount) }))
                             regist()
                         }}
+                        disabled={gameStorage.isError || gameStorage.memberCount.length === 0}
                         type={'submit'}
                     >
                         Начать игру!
