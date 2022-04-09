@@ -138,15 +138,5 @@
     "name": "Овощебаза",
     "photo":  "https://meme-police.ru/spyfall/location/spyfall1/27.jpg",
     "job": ["Фермер", "Разнорабочий", "Грузщик"]
-  },
-  {
-    "name": "Партизанский отряд",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/28.jpg",
-    "job": ["Партизан", "Шпион"]
-  },
-  {
-    "name": "База террористов",
-    "photo":  "https://meme-police.ru/spyfall/location/spyfall1/29.jpg",
-    "job": ["Террорист", "Шпион", "Пленный"]
   }
 ]

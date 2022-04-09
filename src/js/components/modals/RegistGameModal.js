@@ -22,7 +22,7 @@ function RegistGameModal({ nav, router }) {
     dispatch(set({ key: 'activeMember', value: 0 }))
 
     function regist() {
-        let randomLocation = Math.floor(Math.random() * 30)
+        let randomLocation = Math.floor(Math.random() * 28)
         dispatch(set({ key: 'location', value: locations[randomLocation] }))
         let location = locations[randomLocation]
 
