@@ -89,11 +89,16 @@ function RegistGameModal({ nav, router }) {
                         placeholder={'Введите число...'}
                         value={gameStorage.memberCount}
                         onChange={(e) => {
-                            dispatch(set({ key: 'memberCount', value: e.currentTarget.value }))
+                            dispatch(set({
+                                key: 'memberCount',
+                                value: e.currentTarget.value
+                                    .replace(/[^\d,]/g, "")
+                                    .replace(/^0+/, "")
+                                    .replace(/,/g, "")
+                            }))
                             dispatch(set({ key: 'isError', value: Number(e.currentTarget.value) < 3 }))
                         }}
-                        type="number"
-                        inputmode="decimal"
+                        inputMode="numeric"
                     />
                 </FormItem>
 
