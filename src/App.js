@@ -22,8 +22,11 @@ import bridge from "@vkontakte/vk-bridge";
 import { set } from './js/reducers/mainReducer';
 
 import RegistGameModal from './js/components/modals/RegistGameModal';
+import EditLocationsModal from './js/components/modals/EditLocationsModal';
 
 const HomePanelBase = lazy(() => import('./js/panels/home/base'));
+const HomePanelEditLocations = lazy(() => import('./js/panels/home/editLocations'));
+const HomePanelAddLocation = lazy(() => import('./js/panels/home/addLocation'));
 const HomePanelStartGame = lazy(() => import('./js/panels/home/startGame'));
 const HomePanelGame = lazy(() => import('./js/panels/home/game'));
 
@@ -46,6 +49,7 @@ const App = withAdaptivity(({ viewWidth, router }) => {
   const modals = (
     <ModalRoot activeModal={router.modal} onClose={() => router.toBack()}>
       <RegistGameModal nav="registGame"/>
+      <EditLocationsModal nav="editLocation"/>
     </ModalRoot>
   );
 
@@ -72,6 +76,18 @@ const App = withAdaptivity(({ viewWidth, router }) => {
                 <Panel id='base'>
                   <Suspense fallback={<ScreenSpinner/>}>
                     <HomePanelBase/>
+                  </Suspense>
+                </Panel>
+
+                <Panel id='editLocations'>
+                  <Suspense fallback={<ScreenSpinner/>}>
+                    <HomePanelEditLocations/>
+                  </Suspense>
+                </Panel>
+
+                <Panel id='addLocation'>
+                  <Suspense fallback={<ScreenSpinner/>}>
+                    <HomePanelAddLocation/>
                   </Suspense>
                 </Panel>
 

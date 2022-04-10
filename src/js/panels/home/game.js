@@ -24,10 +24,11 @@ import {
 } from '@vkontakte/icons';
 import bridge from "@vkontakte/vk-bridge";
 import { set } from '../../reducers/gameReducer';
-import locations from '../../../data/locations.json';
+import PageFooter from "../../components/PageFooter";
 
 function HomePanelPlaceholder({ router }) {
     const isDesktop = useSelector((state => state.main.isDesktop))
+    const locations = useSelector((state => state.locations.locations))
     const gameStorage = useSelector((state) => state.game)
     const [time, setTime] = useState(gameStorage.members.length * 60)
     const [isView, setView] = useState(false)
@@ -152,6 +153,13 @@ function HomePanelPlaceholder({ router }) {
                                         return (<Location dataLocation={el}/>)
                                     })}
                                 </div>
+
+                                <PageFooter
+                                    length={locations.length}
+                                    findText={"Всего %V%."}
+                                    locales={["%V% локация", "%V% локации", "%V% локаций"]}
+                                    dataLength={locations.length}
+                                />
                             </>
                         }
 

@@ -12,9 +12,9 @@ import {
 } from "@vkontakte/vkui";
 import { Icon24Dismiss, Icon24Cancel } from '@vkontakte/icons'
 import { set } from "../../reducers/gameReducer";
-import locations from "../../../data/locations.json";
 
 function RegistGameModal({ nav, router }) {
+    const locations = useSelector((state => state.locations.locations))
     const mainStorage = useSelector((state) => state.main)
     const gameStorage = useSelector((state) => state.game)
     const dispatch = useDispatch()
@@ -22,7 +22,7 @@ function RegistGameModal({ nav, router }) {
     dispatch(set({ key: 'activeMember', value: 0 }))
 
     function regist() {
-        let randomLocation = Math.floor(Math.random() * 28)
+        let randomLocation = Math.floor(Math.random() * locations.length)
         dispatch(set({ key: 'location', value: locations[randomLocation] }))
         let location = locations[randomLocation]
 

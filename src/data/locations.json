@@ -1,142 +1,170 @@
 [
   {
+    "id": 0,
     "name": "Театр",
     "photo":  "https://storage.nbalin.dev/vkma/0.jpeg",
     "job": ["Зритель", "Кассир", "Гардеробщик", "Актер", "Буфетчик", "Охранщик"]
   },
   {
+    "id": 1,
     "name": "Полярная станция",
     "photo":  "https://storage.nbalin.dev/vkma/1.jpeg",
     "job": ["Ученый", "Полярник"]
   },
   {
+    "id": 2,
     "name": "Пиратский корабль",
-    "photo":  "https://storage.nbalin.dev/vkma/2.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/2.jpeg",
     "job": ["Капитан", "Штурман", "Боцман", "Кок", "Квартирмейстер"]
   },
   {
+    "id": 3,
     "name": "Корпоратив",
-    "photo":  "https://storage.nbalin.dev/vkma/3.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/3.jpeg",
     "job": ["Директор", "Веселый работник", "Пьяный работник"]
   },
   {
+    "id": 4,
     "name": "Университет",
-    "photo":  "https://storage.nbalin.dev/vkma/4.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/4.jpeg",
     "job": ["Ученик", "Учитель", "Декант", "Староста", "Уборщица", "Охранщик"]
   },
   {
+    "id": 5,
     "name": "СПА-салон",
-    "photo":  "https://storage.nbalin.dev/vkma/5.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/5.jpeg",
     "job": ["Посетитель", "Работник", "Директор", "Охранщик"]
   },
   {
+    "id": 6,
     "name": "Подводная лодка",
-    "photo":  "https://storage.nbalin.dev/vkma/6.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/6.jpeg",
     "job": ["Офицер", "Матрос", "Мичман", "Командир"]
   },
   {
+    "id": 7,
     "name": "Океанский лайнер",
-    "photo":  "https://storage.nbalin.dev/vkma/7.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/7.jpeg",
     "job": ["Отдыхающий", "Капитан", "Матрос", "Врач"]
   },
   {
+    "id": 8,
     "name": "Пляж",
-    "photo":  "https://storage.nbalin.dev/vkma/8.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/8.jpeg",
     "job": ["Отдыхающий", "Спасатель", "Продавец"]
   },
   {
+    "id": 9,
     "name": "Полицейский участок",
-    "photo":  "https://storage.nbalin.dev/vkma/9.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/9.jpeg",
     "job": ["Полицейский", "Дежурный", "Бандит"]
   },
   {
+    "id": 10,
     "name": "Орбитальная станция",
-    "photo":  "https://storage.nbalin.dev/vkma/10.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/10.jpeg",
     "job": ["Космонавт", "Пришелец", "Астронавт"]
   },
   {
+    "id": 11,
     "name": "Больница",
-    "photo":  "https://storage.nbalin.dev/vkma/11.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/11.jpeg",
     "job": ["Врач", "Доктор", "Больной"]
   },
   {
+    "id": 12,
     "name": "Киностудия",
-    "photo":  "https://storage.nbalin.dev/vkma/12.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/12.jpeg",
     "job": ["Актер", "Режиссер", "Автор", "Сценарист", "Дублёр"]
   },
   {
+    "id": 13,
     "name": "Сервис-центр",
-    "photo":  "https://storage.nbalin.dev/vkma/13.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/13.jpeg",
     "job": ["Механик", "Администратор", "Продавец", "Покупатель"]
   },
   {
+    "id": 14,
     "name": "Школа",
-    "photo":  "https://storage.nbalin.dev/vkma/14.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/14.jpeg",
     "job": ["Ученик", "Учитель", "Охраник", "Уборщица", "Завуч"]
   },
   {
+    "id": 15,
     "name": "Супермаркет",
-    "photo":  "https://storage.nbalin.dev/vkma/15.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/15.jpeg",
     "job": ["Продавец-кассир", "Покупатель", "Охраник", "Уборщица", "Консультант"]
   },
   {
+    "id": 16,
     "name": "Посольство",
-    "photo":  "https://storage.nbalin.dev/vkma/16.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/16.jpeg",
     "job": ["Дипломат", "Посол", "Старший советник", "Советник"]
   },
   {
+    "id": 17,
     "name": "Самолёт",
-    "photo":  "https://storage.nbalin.dev/vkma/17.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/17.jpeg",
     "job": ["Пилот", "Пилот помощник", "Пассажир", "Стюардесса"]
   },
   {
+    "id": 18,
     "name": "Ресторан",
-    "photo":  "https://storage.nbalin.dev/vkma/18.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/18.jpeg",
     "job": ["Официант", "Повар", "Бармен", "Администратор"]
   },
   {
+    "id": 19,
     "name": "Пассажирский поезд",
-    "photo":  "https://storage.nbalin.dev/vkma/19.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/19.jpeg",
     "job": ["Проводник", "Пассажир", "Машинист"]
   },
   {
+    "id": 20,
     "name": "Казино",
-    "photo":  "https://storage.nbalin.dev/vkma/20.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/20.jpeg",
     "job": ["Охранник", "Игрок", "Крупье", "Кассир", "Официант"]
   },
   {
+    "id": 21,
     "name": "Банк",
-    "photo":  "https://storage.nbalin.dev/vkma/21.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/21.jpeg",
     "job": ["Банкир", "Бухгалтер", "Кассир", "Посетитель", "Аналитик"]
   },
   {
+    "id": 22,
     "name": "Войско крестоносцев",
-    "photo":  "https://storage.nbalin.dev/vkma/22.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/22.jpeg",
     "job": ["Воин", "Стрелок", "Рыцарь", "Князь"]
   },
   {
+    "id": 23,
     "name": "Отель",
-    "photo":  "https://storage.nbalin.dev/vkma/23.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/23.jpeg",
     "job": ["Администратор", "Менеджер", "Охранник", "Постоялец"]
   },
   {
+    "id": 24,
     "name": "Церковь",
-    "photo":  "https://storage.nbalin.dev/vkma/24.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/24.jpeg",
     "job": ["Священник", "Посетитель", "Псаломщик", "Звонарь"]
   },
   {
+    "id": 25,
     "name": "Воинская часть",
-    "photo":  "https://storage.nbalin.dev/vkma/25.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/25.jpeg",
     "job": ["Военный", "Шпион", "Генерал"]
   },
   {
+    "id": 26,
     "name": "Цирк-шапито",
-    "photo":  "https://storage.nbalin.dev/vkma/26.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/26.jpeg",
     "job": ["Клоун", "Посетитель", "Фокусник", "Дрессировщик", "Гимнаст"]
   },
   {
+    "id": 27,
     "name": "Овощебаза",
-    "photo":  "https://storage.nbalin.dev/vkma/27.jpg",
+    "photo":  "https://storage.nbalin.dev/vkma/27.jpeg",
     "job": ["Фермер", "Разнорабочий", "Грузщик"]
   }
 ]

@@ -1,9 +1,13 @@
 import React from "react";
 import { Avatar, Headline, HorizontalCell } from "@vkontakte/vkui";
 
-function Location({ dataLocation }) {
+function Location({ dataLocation, onClick }) {
     return (
-        <HorizontalCell size="l" disabled>
+        <HorizontalCell
+            size="l"
+            disabled={!onClick}
+            onClick={onClick}
+        >
             <Avatar
                 size={128}
                 mode="image"

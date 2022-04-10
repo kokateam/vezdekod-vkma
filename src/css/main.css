@@ -52,3 +52,21 @@ body {
 .vkuiHorizontalCell--android:first-child:before, .vkuiHorizontalCell--android:last-child:after, .vkuiHorizontalCell--vkcom:first-child:before, .vkuiHorizontalCell--vkcom:last-child:after {
     display: none;
 }
+.DivFixBottom {
+    margin-bottom: -10px;
+}
+.expandCardPC {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.expandCard {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.buttonIcon {
+    padding: 5px;
+    margin-right: 10px;
+}
+.vkuiHeader__aside {
+    margin-top: 10px;
+}

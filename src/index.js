@@ -11,11 +11,10 @@ import structure from './structure';
 import App from './App';
 
 import '@vkontakte/vkui/dist/vkui.css';
+import "@vkontakte/vkui/dist/unstable.css";
 import './css/main.css';
 import { AdaptivityProvider } from '@vkontakte/vkui';
 import bridge from '@vkontakte/vk-bridge';
-
-bridge.send('VKWebAppInit', {})
 
 ReactDOM.render(
     <Provider store={store}>
@@ -27,3 +26,5 @@ ReactDOM.render(
     </Provider>,
     document.getElementById('root')
 );
+
+bridge.send('VKWebAppInit', {})
